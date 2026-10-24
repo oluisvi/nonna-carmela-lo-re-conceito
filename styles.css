@@ -228,6 +228,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, dialog:focus-visible
 .dish-card--list:hover { transform:none;background:rgba(255,255,255,.035);box-shadow:none; }
 .dish-card--list .dish-image { grid-row:1 / span 2;aspect-ratio:auto;min-height:125px; }
 .dish-card--list .dish-copy { padding:18px 20px; }
+.dish-card--list.dish-card--no-image .dish-copy { grid-column:1 / -1; }
 .dish-card--list .dish-copy h3 { color:#f2eadb;font-size:22px; }
 .dish-card--list .dish-copy>p { min-height:0;color:#c5b8a4; }
 .dish-card--list .dish-meta { grid-column:2;padding:0 20px 16px;margin:-7px 0 0;border:0; }
@@ -423,6 +424,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, dialog:focus-visible
   .dish-card--list { grid-template-columns:90px minmax(0,1fr); }
   .dish-card--list .dish-image { min-height:110px; }
   .dish-card--list .dish-copy { padding:12px; }
+  .dish-card--list.dish-card--no-image .dish-copy { grid-column:1 / -1; }
   .dish-card--list .dish-copy h3 { font-size:17px; }
   .dish-card--list .dish-meta { padding:0 12px 12px;margin:-4px 0 0; }
   .cantina-photo-break { grid-template-columns:1fr;gap:22px;padding:64px var(--gutter); }

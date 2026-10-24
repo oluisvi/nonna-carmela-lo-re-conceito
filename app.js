@@ -162,7 +162,7 @@ function menuItem(item, layout) {
   const price = '<span class="item-price">' + item.price + '</span>';
   const body = '<div class="dish-copy"><div class="dish-tags">' + tags + '</div><h3>' + item.name + '</h3><p>' + item.description + '</p><div class="dish-meta">' + price + detail + '</div></div>';
   if (layout === "list") {
-    return '<article class="dish-card dish-card--list">' + image + body + '</article>';
+    return '<article class="dish-card dish-card--list' + (item.image ? '' : ' dish-card--no-image') + '">' + image + body + '</article>';
   }
   if (layout === "ledger") {
     return '<article class="dish-card dish-card--ledger"><div class="ledger-category">' + (CATEGORY_LABELS[item.category] || item.category) + '</div><div class="dish-copy"><div class="dish-tags">' + tags + '</div><h3>' + item.name + '</h3><p>' + item.description + '</p></div><div class="ledger-end">' + price + detail + '</div></article>';
