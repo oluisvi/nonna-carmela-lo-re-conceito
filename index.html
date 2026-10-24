@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0e4">
+  <meta name="description" content="Um conceito digital para a Cantina Nonna Carmela & Lo Re, em Serra Negra: cozinha italiana, cardápio pesquisável, localização e contato.">
+  <meta property="og:title" content="Nonna Carmela & Lo Re — três caminhos para a cantina">
+  <meta property="og:description" content="Uma proposta de presença digital com menu navegável e três direções visuais.">
+  <meta property="og:image" content="https://oluisvi.github.io/nonna-carmela-lo-re-conceito/assets/hero.webp">
+  <title>Nonna Carmela & Lo Re — conceito digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Italiana&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-design="tavola">
+  <header class="prototype-bar">
+    <a class="prototype-name" href="#inicio" aria-label="Voltar ao início do conceito">
+      <span class="prototype-dot" aria-hidden="true"></span>
+      <span>Nonna Carmela & Lo Re</span>
+      <span class="prototype-divider" aria-hidden="true">/</span>
+      <span class="prototype-caption">três caminhos de conceito</span>
+    </a>
+    <nav class="design-picker" aria-label="Escolha uma direção visual">
+      <button class="design-button is-active" type="button" data-design-choice="tavola" aria-pressed="true"><span class="design-index">A</span> Tavola</button>
+      <button class="design-button" type="button" data-design-choice="cantina" aria-pressed="false"><span class="design-index">B</span> Cantina</button>
+      <button class="design-button" type="button" data-design-choice="carta" aria-pressed="false"><span class="design-index">C</span> Carta</button>
+    </nav>
+  </header>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+  <main id="site-root" tabindex="-1"></main>
+  <dialog class="dish-dialog" id="dish-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Fechar detalhes">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="no-script">Ative o JavaScript para navegar pelos três conceitos e pelo cardápio.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>
