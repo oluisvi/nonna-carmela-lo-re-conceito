@@ -1,9 +1,11 @@
-Oi! Obrigado por compartilhar o cardápio com a gente. Dei uma olhada com calma e preparei um conceito de como ele poderia ficar em uma página própria da Nonna Carmela & Lo Re.
+# Rascunho de proposta — não enviado
 
-Hoje o menu e a carta de vinhos estão no Linktree em PDF. A ideia do protótipo é facilitar a consulta pelo celular: a pessoa pode buscar um prato, filtrar por entradas, massas, opções veganas, carnes, sobremesas ou bebidas, conferir ingredientes e preços, e encontrar o endereço e o contato sem precisar ampliar várias páginas do arquivo. O Instagram e o WhatsApp continuam fazendo parte do atendimento; a página organiza as informações e ajuda a pessoa a chegar até vocês com mais contexto.
+Oi, pessoal! Obrigado por compartilharem o cardápio. Organizei uma prévia de como ele poderia ficar em uma página própria da Nonna Carmela & Lo Re: com busca por prato ou ingrediente, filtros por categoria, opções veganas, detalhes e preços no próprio site, além de acesso fácil à rota e ao contato.
 
-Preparei três caminhos visuais diferentes na mesma página para vocês compararem. São apenas propostas de direção: podemos ajustar cores, fotos, textos, organização do cardápio e funcionalidades conforme o gosto e a rotina da cantina.
+Preparei três caminhos visuais diferentes para vocês compararem. A página pode complementar o Instagram e deixar o link da bio mais prático para quem está conhecendo a cantina pelo celular, sem precisar abrir e ampliar várias páginas de PDF.
 
 Protótipo: https://oluisvi.github.io/nonna-carmela-lo-re-conceito/
 
-As fotos do protótipo são ilustrativas. Se gostarem da ideia, podemos trocar pelas fotos oficiais da cantina e revisar juntos os preços, horários, carta de vinhos e demais informações antes de publicar a versão final. Qual das três direções combina mais com a casa?
+As fotos são ilustrativas e podem ser trocadas pelas imagens oficiais. Também podemos ajustar o visual e a organização para combinar com a rotina da cantina. Qual das três direções conversa mais com vocês? Tem algo no cardápio ou na página que gostariam de mudar?
+
+> Rascunho para Luis revisar. Não enviado ao estabelecimento.

@@ -38,6 +38,13 @@ Um catálogo mobile próprio pode reduzir a procura entre PDFs e mensagens, dar 
 
 O perfil pode continuar apresentando os pratos e a rotina da cantina; a página própria funciona como destino do link da bio para consulta do menu em formato navegável. Recomendações e rascunhos de pauta estão em `IDEIAS_INSTAGRAM.md`.
 
+## Publicação
+
+- Protótipo publicado em https://oluisvi.github.io/nonna-carmela-lo-re-conceito/.
+- Repositório: https://github.com/oluisvi/nonna-carmela-lo-re-conceito.
+
 ## Decisão comercial
 
 Rascunho de proposta preparado em MENSAGEM_PROPOSTA.md. Não enviado.
+
+
